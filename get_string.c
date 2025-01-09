@@ -8,6 +8,7 @@
 int main(int argc, char **argv)
 {
   if (argc < 2) {
+    fprintf(stderr, "glGetString <pname>\n");
     return 0;
   }
   glfwInit();
